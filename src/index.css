@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  height: 100vh;
+  background: linear-gradient(110.8210951619775deg, rgba(6, 227, 250,1) 5.533854166666667%,rgba(80, 119, 144,1) 96.67968749999999%);
+}
+#drum-machine {
+  width: 20rem;
+  margin: 5rem auto 0 auto;
+  text-align: center;
+}
+#display {
+  font-size: 4rem;
+  padding: 2rem 0;
+  color: #233142;
+  text-transform: uppercase;
+}
+.btns {
+  display:flex;
+  flex-wrap: wrap;
+}
+.drum-pad {
+  width: 4rem;
+  height: 3rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+  background-color: #233142;
+  color: #facf5a;
+}
+.drum-pad:hover {
+  transform: scale(1.1);
+  background-color: #ff5959;
+}
+h1 {
+  padding: 0;
+  margin: 0;
+}
